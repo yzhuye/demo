@@ -2,9 +2,9 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import HomeScreen from "../screens/HomeScreen";
-import VideoWithAppState from "../screens/VideoWithAppState";
-import VideoWithoutAppState from "../screens/VideoWithoutAppState";
+import HomeScreen from "../../screens/HomeScreen";
+import VideoWithAppState from "../../screens/WithAppState";
+import VideoWithoutAppState from "../../screens/WithoutAppState";
 
 const Stack = createNativeStackNavigator();
 
@@ -19,7 +19,7 @@ export default function AppNavigator() {
           },
           headerTintColor: "#fff",
           headerTitleStyle: {
-            fontWeight: "bold",
+            fontWeight: "700",
           },
         }}
       >
